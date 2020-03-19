@@ -25,7 +25,7 @@ if (process.env.PORT) {
 
 var app = express();
 app.get('/', function (req, res) {
-  res.send('<html><body><h2>Welcome to IBM Cloud DevOps using containers.</h2><h2> IBM Continuous Delivery는 기업에서 바로 사용 가능한 방식의 DevOps를 지원합니다. 앱 배포 태스크를 지원하는 툴 체인을 작성하고 빌드, 테스트, 배치 등의 작업을 자동화하세요!</h2><h2>바로가기 : <a href="https://cloud.ibm.com/catalog/services/continuous-delivery">https://cloud.ibm.com/catalog/services/continuous-delivery</a></h2>');
+  res.send('<html><body><h2>Welcome to IBM Cloud DevOps using containers.</h2><h2> IBM Continuous Delivery는 기업에서 바로 사용 가능한 방식의 DevOps를 지원합니다.</h2><h2> 앱 배포 태스크를 지원하는 툴 체인을 작성하고 빌드, 테스트, 배치 등의 작업을 자동화하세요!</h2><h2>바로가기 : <a href="https://cloud.ibm.com/catalog/services/continuous-delivery">https://cloud.ibm.com/catalog/services/continuous-delivery</a></h2>');
 });
 
 app.listen(PORT);
