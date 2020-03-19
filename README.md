@@ -1,1 +1,1 @@
-Sample application packaged as a container
+# 샘플 node.js 앱 컨테이너
